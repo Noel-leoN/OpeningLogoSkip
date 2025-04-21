@@ -9,7 +9,7 @@
 
 ## Compatibility
 The mod uses BepInEx to prepatch , there is no mod conflict issue.
-(not using PDX mods is deferred loading, so they can't be achieved without compromising compatibility and performance for the time being)
+(The reason why the PDX mod method cannot be adopted is that the duration for reading the logo is hardcoded in the program, and the PDX can only run with a delay after the game has loaded.)
 
 ## Credits
 - [Captain-Of-Coit](https://github.com/Captain-Of-Coit/cities-skylines-2-mod-template): A Cities: Skylines 2 BepInEx mod template.
